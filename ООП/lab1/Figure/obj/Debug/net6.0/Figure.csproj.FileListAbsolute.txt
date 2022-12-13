@@ -1,0 +1,15 @@
+D:\edu\C#\Figure\Figure\bin\Debug\net6.0\Figure.exe
+D:\edu\C#\Figure\Figure\bin\Debug\net6.0\Figure.deps.json
+D:\edu\C#\Figure\Figure\bin\Debug\net6.0\Figure.runtimeconfig.json
+D:\edu\C#\Figure\Figure\bin\Debug\net6.0\Figure.dll
+D:\edu\C#\Figure\Figure\bin\Debug\net6.0\Figure.pdb
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.csproj.AssemblyReference.cache
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.GeneratedMSBuildEditorConfig.editorconfig
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.AssemblyInfoInputs.cache
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.AssemblyInfo.cs
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.csproj.CoreCompileInputs.cache
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.dll
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\refint\Figure.dll
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.pdb
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\Figure.genruntimeconfig.cache
+D:\edu\C#\Figure\Figure\obj\Debug\net6.0\ref\Figure.dll

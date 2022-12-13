@@ -1,0 +1,15 @@
+D:\edu\C#\lab3\lab3\bin\Debug\net6.0\lab3.exe
+D:\edu\C#\lab3\lab3\bin\Debug\net6.0\lab3.deps.json
+D:\edu\C#\lab3\lab3\bin\Debug\net6.0\lab3.runtimeconfig.json
+D:\edu\C#\lab3\lab3\bin\Debug\net6.0\lab3.dll
+D:\edu\C#\lab3\lab3\bin\Debug\net6.0\lab3.pdb
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.csproj.AssemblyReference.cache
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfoInputs.cache
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfo.cs
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CoreCompileInputs.cache
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.dll
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\refint\lab3.dll
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.pdb
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\lab3.genruntimeconfig.cache
+D:\edu\C#\lab3\lab3\obj\Debug\net6.0\ref\lab3.dll

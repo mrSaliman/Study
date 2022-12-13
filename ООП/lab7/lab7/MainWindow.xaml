@@ -1,0 +1,61 @@
+﻿<Window x:Class="lab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="459*"/>
+            <RowDefinition Height="325*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="391*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Grid.RowSpan="2">
+            <Canvas.Background>
+                <RadialGradientBrush RadiusY="0.7" RadiusX="0.7" SpreadMethod="Pad">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF0FB75F" Offset="0"/>
+                </RadialGradientBrush>
+            </Canvas.Background>
+            <Label Content="Добавить Автомобиль" Canvas.Left="80" Canvas.Top="10" FontSize="24" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <DatePicker x:Name="ReleaseDate" Canvas.Left="30" Canvas.Top="57" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="Дата Выпуска" Canvas.Left="130" Canvas.Top="57" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="Mileage" Canvas.Left="10" TextWrapping="Wrap" Text="0" Canvas.Top="86" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Пробег (км)" Canvas.Left="130" Canvas.Top="81" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="Model" Canvas.Left="10" TextWrapping="Wrap" Text="Toyota" Canvas.Top="109" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Марка" Canvas.Left="130" Canvas.Top="107" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="BodyType" Canvas.Left="10" TextWrapping="Wrap" Text="Седан" Canvas.Top="132" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Тип кузова" Canvas.Left="130" Canvas.Top="128" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <CheckBox x:Name="IsUridic" Content="Владелец - Юр. лицо" Canvas.Left="116" Canvas.Top="155" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <DatePicker x:Name="InspectionDate" Canvas.Left="30" Canvas.Top="175" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="Дата прохождения техосмотра" Canvas.Left="130" Canvas.Top="175" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="Добавить" Canvas.Left="10" Canvas.Top="221" Height="78" Width="398" FontSize="22" Background="#FF2FAD65" Click="Button_Click"/>
+        </Canvas>
+        <Canvas Grid.Column="1">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF73A960" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <TextBox x:Name="TextBlock" Canvas.Left="10" TextWrapping="Wrap" Text="TextBox" Canvas.Top="10" Width="762" HorizontalAlignment="Center" VerticalAlignment="Top" Height="439"/>
+        </Canvas>
+        <Canvas Grid.Column="1" Grid.Row="1">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF73A960" Offset="0"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <Button Content="Общая информация" Canvas.Left="10" Canvas.Top="10" Height="94" Width="467" Click="Button_Click_1" FontSize="16"/>
+            <Button Content="Техосмотр на указанную дату" Canvas.Left="482" Canvas.Top="10" Height="65" Width="290" Click="Button_Click_2" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <DatePicker x:Name="InspectionDateCheck" Canvas.Left="482" Canvas.Top="80" HorizontalAlignment="Center" VerticalAlignment="Top" Height="24" Width="290"/>
+            <Button Content="Количество автомобилей с каждым типом кузова по юридическим лицам" Canvas.Left="10" Canvas.Top="109" Height="65" Width="762" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_3"/>
+        </Canvas>
+    </Grid>
+</Window>
